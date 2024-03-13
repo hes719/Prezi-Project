@@ -1,0 +1,17 @@
+(function(){
+  window['optimizely'] = window['optimizely'] || [];
+  window['optimizely'].push(['activateGeoDelayedExperiments', {
+    'location':{
+      'city': "NURNBERG",
+      'continent': "EU",
+      'country': "DE",
+      'region': "BY",
+      'dma': ""
+    },
+    'ip':"5.75.200.62"
+  }]);
+})
+//
+()
+
+;
